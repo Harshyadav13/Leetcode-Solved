@@ -1,5 +1,6 @@
 class Solution {
     
+    //Time complexity = O(N) or O(2N) same thing
     public int memo(int[] nums, int idx, int n, int prev, int[][] dp) {
         
         if(idx == n + 1) return 0;
